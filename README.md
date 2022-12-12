@@ -1,6 +1,6 @@
-# MetaDex-SDK
+# Klatn-SDK
 
-## MetaDex swap plugin solution
+## Klatn swap plugin solution
 
 ### [x] iframe
 
