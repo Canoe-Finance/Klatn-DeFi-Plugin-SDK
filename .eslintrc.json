@@ -1,0 +1,42 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": ["plugin:@stencil/recommended"],
+  "rules": {
+    "@stencil/async-methods": "off",
+    "@stencil/ban-prefix": ["error", ["stencil", "stnl", "st"]],
+    "@stencil/decorators-context": "off",
+    "@stencil/decorators-style": [
+      "error",
+      {
+        "prop": "inline",
+        "state": "inline",
+        "element": "inline",
+        "event": "inline",
+        "method": "multiline",
+        "watch": "multiline",
+        "listen": "multiline"
+      }
+    ],
+    "@stencil/element-type": "error",
+    "@stencil/host-data-deprecated": "error",
+    "@stencil/methods-must-be-public": "error",
+    "@stencil/no-unused-watch": "off",
+    "@stencil/own-methods-must-be-private": "off",
+    "@stencil/own-props-must-be-private": "error",
+    "@stencil/prefer-vdom-listener": "off",
+    "@stencil/props-must-be-public": "error",
+    "@stencil/props-must-be-readonly": "error",
+    "@stencil/render-returns-host": "error",
+    "@stencil/required-jsdoc": "error",
+    "@stencil/reserved-member-names": "error",
+    "@stencil/single-export": "error",
+    "@stencil/strict-mutable": "error",
+    "@stencil/strict-boolean-conditions": "off",
+    "react/jsx-no-bind": [
+      "warn",
+      {
+        "allowArrowFunctions": true
+      }
+    ]
+  }
+}

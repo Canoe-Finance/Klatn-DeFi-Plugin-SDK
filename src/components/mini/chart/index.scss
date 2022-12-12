@@ -1,0 +1,10 @@
+.chart-size {
+  position: relative;
+  width: 300px;
+  height: 64px;
+
+  canvas {
+    width: 300px !important;
+    height: 64px !important;
+  }
+}

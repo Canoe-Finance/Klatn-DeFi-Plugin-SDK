@@ -1,0 +1,56 @@
+[
+  {
+    "id": 8217,
+    "name": "Klaytn Chain",
+    "symbol": "Klaytn",
+    "logoURI": "https://assets.coingecko.com/coins/images/9672/small/klaytn.png",
+    "chain": [
+      {
+        "id": 1111,
+        "name": "WEMIX",
+        "symbol": "WEMIX",
+        "logoURI": "https://assets.coingecko.com/coins/images/12998/small/wemixcoin_color_200.png",
+        "token": [
+          {
+            "toChainId": 1111,
+            "name": "KLAY",
+            "symbol": "KLAY",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/9672/small/klaytn.png",
+            "address": "",
+            "tokenAddress": "0xfbdd194376de19a88118e84e279b977f165d01b8",
+            "contractAddress": "0x7c598c96d02398d89fbcb9d41eab3df0c16f227d",
+            "isApprove": false,
+            "method": "anySwapOutNative",
+            "config": {
+              "fee": 0.001,
+              "minFee": 31,
+              "maxFee": 6150,
+              "minAmount": 62,
+              "maxAmount": 31000000
+            }
+          },
+          {
+            "toChainId": 1111,
+            "name": "WEMIX",
+            "symbol": "WEMIX",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/12998/small/wemixcoin_color_200.png",
+            "address": "0x5096db80b21ef45230c9e423c373f1fc9c0198dd",
+            "tokenAddress": "0x2bf9b864cdc97b08b6d79ad4663e71b8ab65c45c",
+            "contractAddress": "0xfa9343c3897324496a05fc75abed6bac29f8a40f",
+            "isApprove": true,
+            "method": "anySwapOutUnderlying",
+            "config": {
+              "fee": 0,
+              "minFee": 0.520833,
+              "maxFee": 0.520833,
+              "minAmount": 1.041667,
+              "maxAmount": 2604166.666667
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

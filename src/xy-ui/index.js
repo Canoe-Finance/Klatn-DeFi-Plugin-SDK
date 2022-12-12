@@ -1,0 +1,5 @@
+import './components/xy-button.js'
+import './components/xy-loading.js'
+import './components/xy-tab.js'
+import './components/xy-icon.js'
+import './components/xy-popover.js'

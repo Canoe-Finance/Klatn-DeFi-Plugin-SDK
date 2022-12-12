@@ -1,0 +1,10 @@
+.zoom-top {
+  top: 0;
+  margin-left: -24px;
+  background-color: $text-bg-active-color;
+  border-bottom-left-radius: 8px;
+
+  span {
+    writing-mode: vertical-lr;
+  }
+}

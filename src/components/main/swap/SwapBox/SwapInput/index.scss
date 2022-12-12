@@ -1,0 +1,66 @@
+:host {
+  .input-container {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;
+    height: 36px;
+    padding: 10px;
+    background: $text-bg-color;
+    border-radius: 4px;
+
+    .token-info {
+      display: flex;
+      align-items: center;
+      padding-right: 20px;
+
+      .token-logo {
+        width: 16px;
+        height: 16px;
+        background-color: #fff;
+        border-radius: 50%;
+      }
+
+      .token-symbol {
+        margin-left: 4px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16px;
+        color: #fff;
+
+        &::after {
+          position: absolute;
+          display: inline-block;
+          width: 0;
+          height: 0;
+          margin-top: 7px;
+          margin-left: 4px;
+          content: '';
+          border-top: 4px solid #fff;
+          border-right: 4px solid transparent;
+          border-left: 4px solid transparent;
+        }
+      }
+    }
+
+    input.customs {
+      flex: 1;
+      width: 0;
+      height: 36px;
+      padding: 0 10px;
+      font-size: 16px;
+      color: #fff;
+      text-align: right;
+      background-color: $text-bg-color;
+      border: none;
+      outline: none;
+      box-shadow: none;
+      appearance: none;
+
+      &::placeholder {
+        color: #999;
+      }
+    }
+  }
+}
